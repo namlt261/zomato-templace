@@ -1,0 +1,136 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.head-img {
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.head-img img {
+    width: 100%;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+}
+.top-bar-text {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 1.5rem;
+}
+.head-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo {
+    width: 20vw;
+}
+.logo:hover {
+    opacity: 0.7;
+}
+.search {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+    width: 42vw;
+    margin-bottom: 35px;
+}
+.search-item {
+    display: flex;
+}
+.input-search {
+    width: 17rem;
+    border: none;
+}
+.input-search:focus {
+    outline: none;
+}
+.phan1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.phan1 .phan1-item:hover {
+    opacity: 0.7;
+}
+.phan1-item {
+    width: 15rem;
+    margin: 3px 5px;
+    background: white;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+}
+.phan1-item img {
+    width: 100%;
+    border-radius: 15px;
+}
+.items-details {
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* phan2 */
+.phan2-heading {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 45px 0 20px 0;
+    text-align: center;
+}
+.phan2-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-2-item {
+    margin: 10px 15px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.section-2-item:hover {
+    opacity: 0.6;
+}
+
+.section-2-item p {
+    padding-left: 15px;
+}
+/* phan3 */
+.phan3 {
+    display: flex;
+    margin-top: 70px;
+}
+.phan3-img {
+    width: 30%;
+    padding: 0 45px 0 35px;
+}
+.phan3-content h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+.phan3-content p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px;
+}
